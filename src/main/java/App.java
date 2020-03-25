@@ -3,7 +3,11 @@ public class App {
         System.out.println("Hello World!!!");
     }
 
-    public static void say() {
+    public static void Say() {
         System.out.println("Hello!");
+    }
+
+    public static int Age(int year) {
+        return 2020 - year;
     }
 }
